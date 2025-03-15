@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cor-fundo: #0f0601;
+    --cor-texto: #dbba89;
+    --cor-footer: #3b2314;
+    --cor-links: #846846;
+    --cor-hover: #3b2314cc;
+} 
+
+/*
+:root {
+    --cor-fundo: #454d2c;
+    --cor-texto: #FFF0D1;
+    --cor-footer: #1E201E;
+    --cor-links: #C0C78C;
+}*/
+
+
+body {
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: var(--cor-fundo);
+    font-family: "Spectral", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--cor-texto);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.cabecalho {
+    width: 100%;
+    margin-right: 4rem;
+    box-sizing: border-box;
+    padding: 1.3%;
+    display: flex;
+    justify-content: right;
+    gap: 30px;
+    color: var(--cor-links);
+    letter-spacing: 1.5px;
+}
+
+.links-cabecalho {
+    color: var(--cor-links);
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+h1 {
+    width: 100%;
+    margin-top: 0.2rem;
+    font-family: "Charm", cursive;
+    font-weight: 700;
+    font-style: normal;
+    display: flex;
+    font-size: 1.9rem;
+    color: var(--cor-texto);
+    justify-content: center;
+    background-color: var(--cor-footer);
+}
+
+main {
+    width: 100%;
+    height: 100vh;         /* ESSE VH ME DEU TRABALHO TA */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -1px;
+}
+
+section {
+    width: 70%;
+    height: 75%;
+    box-sizing: border-box;
+    display: flex;
+    background-color: var(--cor-footer);
+    flex-flow : column wrap;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 1% 1%;
+}
+
+.caixa1 {
+    width: 30%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("/assets/projeto1.png");
+    background-size: cover;
+}
+
+.caixa2 {
+    width: 30%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("/assets/projeto2.png");
+    background-size: cover;
+}
+
+.caixa3 {
+    width: 30%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor-fundo);
+}
+
+.caixa4 {
+    width: 30%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor-fundo);
+}
+
+.caixa5 {
+    width: 30%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor-fundo);
+}
+
+.caixa6 {
+    width: 30%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor-fundo);
+}
+
+a:hover {
+    background-color: #35211598;
+}
+
+#link-prjt1 {
+    width: 100%;
+    color: var(--cor-texto);
+    text-decoration: none;
+    font-size: 1rem;
+    background-color: var(--cor-footer);
+}
+
+#link-prjt1:hover {
+    color: rgb(248, 248, 248);
+    background-color: #3b2314d7;
+}
+
+#link-prjt2 {
+    width: 100%;
+    color: var(--cor-texto);
+    text-decoration: none;
+    font-size: 1rem;
+    background-color: var(--cor-footer);
+}
+
+#link-prjt2:hover {
+    color: rgb(248, 248, 248);
+    background-color: #3b2314d7;
+}
+
+/* 
+
+#link-prjt3 {
+    width: 100%;
+    color: rgb(248, 248, 248);
+    text-decoration: none;
+    font-size: 1rem;
+    background-color: var(--cor-footer);
+}
+
+#link-prjt3:hover {
+    background-color: var(--cor-hover);
+}
+
+#link-prjt4 {
+    width: 100%;
+    color: rgb(248, 248, 248);
+    text-decoration: none;
+    font-size: 1rem;
+    background-color: var(--cor-footer);
+}
+
+#link-prjt4:hover {
+    background-color: var(--cor-hover);
+}
+
+#link-prjt5 {
+    width: 100%;
+    color: rgb(248, 248, 248);
+    text-decoration: none;
+    font-size: 1rem;
+    background-color: var(--cor-footer);
+}
+
+#link-prjt5:hover {
+    background-color: var(--cor-hover);
+}
+    
+#link-prjt6 {
+    width: 100%;
+    color: rgb(248, 248, 248);
+    text-decoration: none;
+    font-size: 1rem;
+    background-color: var(--cor-footer);
+}
+
+#link-prjt6:hover {
+    background-color: var(--cor-hover);
+}
+
+*/
+
+footer {
+    width: 100%;
+    height: 6%;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--cor-texto);
+    background-color: var(--cor-footer);
+    display: flex;
+    justify-content: center;
+    font-size: 0.7rem;
+    align-items: center;
+}
+
+@media (max-width: 950px) {
+    
+    .cabecalho {
+        padding: 15px 0.9px;
+        box-sizing: border-box;
+    }
+
+    .links-cabecalho {
+        font-size: 1rem;
+        gap: 30px;
+    }
+
+    h1 {
+        font-size: 1.6rem;
+    }
+    
+    body {
+        width: 100%;
+        height: 100%;
+    }
+
+    main {
+        margin-top: -80px;
+        box-sizing: border-box;
+        margin-bottom: 50px;
+    }
+
+    section {
+        width: 80%;
+        height: 70%;
+        padding: 30px 0px;
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 22px;
+        margin-bottom: -90px;
+        box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .caixa1 {
+        width: 40%;
+        height: 30%;
+    }
+    
+    .caixa2 {
+        width: 40%;
+        height: 30%;
+    }
+    
+    .caixa3 {
+        width: 40%;
+        height: 30%;
+        
+    }
+    
+    .caixa4 {
+        width: 40%;
+        height: 30%;
+    }
+    
+    .caixa5 {
+        width: 40%;
+        height: 30%;
+    }
+    
+    .caixa6 {
+        width: 40%;
+        height: 30%;
+    }
+
+    #link-prjt1 {
+        font-size: 1rem;
+    }
+    
+    #link-prjt2 {
+        font-size: 1rem;
+    }
+
+    #link-prjt1:hover {
+        background-color: #3b2314d7;
+    }
+
+    #link-prjt2:hover {
+        background-color: #3b2314d7;
+    }
+    
+    footer {
+        padding: 10px 0px;
+        font-size: 0.9rem;
+    }
+}
