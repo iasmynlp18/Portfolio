@@ -105,7 +105,7 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url("/Portfolio/assets/projeto1.png");
+    background-image: url("/assets/projeto1.png");
     background-size: cover; /* ajusta a imagem para ocupar toda a área disponível */
 }
 
@@ -115,7 +115,7 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url("/Portfolio/assets/projeto2.png");
+    background-image: url("/assets/projeto2.png");
     background-size: cover;
 }
 

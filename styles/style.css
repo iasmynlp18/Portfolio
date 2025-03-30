@@ -192,7 +192,7 @@ img {
     font-size: 1rem;
     font-weight: 520;
     flex-direction: column;
-    letter-spacing: normal;
+    letter-spacing: 0.6px;
     color: var(--cor-links-cabecalho);
     margin-top: -3px;
 }
