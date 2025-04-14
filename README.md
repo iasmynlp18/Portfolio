@@ -26,15 +26,8 @@ Alguns conceitos dos cursos citados na plataforma da Alura:
 
 ## 🖼️ Fotos do projeto em telas maiores: 
 
-![desktop](https://github.com/user-attachments/assets/b40ed411-504f-4454-9dbd-60e256587912)
+![image](https://github.com/user-attachments/assets/d16d0e73-a0d1-454c-ad40-acdc5d76e6f0)
 
-![desktop2](https://github.com/user-attachments/assets/14a1ff7b-f96b-4e87-9122-c30cb8bedcad)
-
-<br>
-
-## 🎥 Vídeo do projeto em telas menores:
+![image](https://github.com/user-attachments/assets/c664d3f6-0ec4-4df7-b03a-69b97babd7fc)
 
 <br>
-
-[-](https://github.com/user-attachments/assets/93f8f7a6-5b52-4049-9128-49e71616219d)
-
