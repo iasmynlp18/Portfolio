@@ -29,6 +29,11 @@
     --cor-caixa-texto:#553a3a;
 }
 
+header {
+  position: relative;
+  z-index: 1000;
+}
+
 body {
     
     width: 100%;

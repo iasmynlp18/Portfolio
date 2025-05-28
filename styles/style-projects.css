@@ -29,6 +29,11 @@
     --cor-links-projeto: #ffc6be;
 }
 
+header {
+  position: relative;
+  z-index: 1000;
+}
+
 body {
     width: 100%;
     height: 100vh;
