@@ -100,14 +100,14 @@ main {
 }
 
 section {
-    width: 48.5%;
+    width: 42%;
     height: 100%;
     display: flex;
     box-sizing: border-box;
     flex-direction: column;
     align-items: center;
     gap: 18px;
-    letter-spacing: 1.3px;
+    letter-spacing: 1.5px;
     margin-top: 0rem;
     justify-content: center;
 }
